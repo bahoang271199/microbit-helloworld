@@ -126,7 +126,7 @@ def inf_loop():
     root.after(100, inf_loop)
     
 requests_url = 'http://127.0.0.1:4040/name'
-
+https://d785-117-2-255-218.ngrok-free.app
 def loop():
     name_list=requests.post(requests_url).json()  
     lb3.config(text=name_list)
